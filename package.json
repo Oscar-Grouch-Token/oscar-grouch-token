@@ -1,0 +1,23 @@
+{
+    "name": "oscar-grouch-token",
+    "version": "1.0.0",
+    "description": "Meme coin project that will become a utility project.",
+    "main": "index.js",
+    "scripts": {
+        "test": "hardhat test",
+        "deploy": "hardhat run scripts/deploy.js --network ropsten"
+    },
+    "dependencies": {
+        "@nomiclabs/hardhat-ethers": "^2.0.1",
+        "@nomiclabs/hardhat-waffle": "^2.0.1",
+        "@openzeppelin/contracts-upgradeable": "^4.3.2",
+        "@openzeppelin/hardhat-upgrades": "^1.8.2",
+        "chai": "^4.3.4",
+        "dotenv": "^16.4.5",
+        "ethers": "^5.4.6"
+    },
+    "devDependencies": {
+        "hardhat": "^2.22.6",
+        "mocha": "^9.1.3"
+    }
+}
